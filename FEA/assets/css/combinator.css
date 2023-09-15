@@ -1,0 +1,14 @@
+ /* Child combinator */
+ body>section:nth-child(2)>ol>li:last-child{
+    color: red;
+}
+
+/* Adjacent combinator */
+section+h1{ 
+    color: blue;
+}
+
+/* Decendent combinator */
+body p{
+    color: brown;
+}

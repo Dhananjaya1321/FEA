@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* ID Selector */
+       #p1{
+        color: red;
+        font-size: 80px;
+       }
+
+
+
+       /* Class Selector */
+       .class1{
+            color: aqua;
+            font-size: 60px;
+       }
+
+
+       /* Attribute Selector 01*/
+       [type]{
+        height: 50px;
+       }
+
+       /* Attribute Selector 02*/
+       [type="text"]{
+        width: 700px;
+       }
+
+    /* Type Selector */
+    h1{
+        color: blue;
+    }
+    
+
+    input{
+        border: none;
+        box-shadow: 1px 1px 24px -8px black;
+    }
+
+
+    /* Universal Selector */
+    *{
+        background-color: pink;
+    }
+    </style>
+</head>
+<body>
+    <p class="class1">HELLO WORLD</p>
+    <p class="class1">HELLO WORLD</p>
+    <p id="p1">HELLO WORLD</p>
+    <p class="class1">HELLO WORLD</p>
+    <p class="class1">HELLO WORLD</p>
+
+    <h1>HELLO WORLD</h1>
+    <h1>HELLO WORLD</h1>
+    <h1>HELLO WORLD</h1>
+    <h1>HELLO WORLD</h1>
+    <h1>HELLO WORLD</h1>
+
+
+    <div></div>
+
+    <input type="text">
+    <input type="color">
+    <input type="text">
+
+</body>
+</html>
