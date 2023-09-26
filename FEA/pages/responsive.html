@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../assets/css/normlize.css" rel="stylesheet">
+    <style>
+        section{
+            width: 100vw;
+            height: 500px;
+            background-color: red;
+        }
+
+        @media all and (max-width:320px){
+            section{
+                width: 100vw;
+                height: 500px;
+                background-color: #ffee00;
+           }
+        }
+        @media all and (max-width:375px) and (min-width:321px){
+            section{
+                width: 100vw;
+            height: 500px;
+                background-color: #00ff55;
+           }
+        }
+        @media all and (max-width:425px) and (min-width:376px){
+            section{
+                width: 100vw;
+            height: 500px;
+                background-color: #00ccff;
+           }
+        }
+        @media all and (max-width:768px) and (min-width:426px){
+            section{
+                background-color: #0044ff;
+           }
+        }
+        @media all and (max-width:1024px) and (min-width:769px){
+            section{
+                background-color: #8c00ff;
+           }
+        }
+        @media all and (max-width:1440PX) and (min-width:1025px){
+            section{
+                background-color: #ff00aa;
+           }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>hi</h1>
+    </section>
+</body>
+</html>
